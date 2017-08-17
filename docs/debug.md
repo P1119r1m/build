@@ -64,7 +64,7 @@ Now you are good to go for doing debugging using command line.
 Start QEMU according to the instructions in [QEMU ARMv7-A], **however**, do
 not start the emulation, i.e. do not type the `c` command in QEMU. The main
 reason for not doing so is because you cannot set the breakpoints on secure side
-when when kernel has booted up (if anyone knows why, please let us now about it,
+when when kernel has booted up (if anyone knows why, please let us know about it,
 we haven't investigated it) and then in another shell start gdb like this:
 ```
 $ $HOME/devel/optee/toolchains/aarch32/bin/arm-linux-gnueabihf-gdb -q
